@@ -9,13 +9,13 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: rgb(253, 222, 195);
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #000;
 }
 
 a:hover {
@@ -25,7 +25,7 @@ a:hover {
 /* Section Styles */
 .main-nav {
   width: 100%;
-  background: black;
+  background: #fbbb71;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -44,7 +44,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: black;
 }
 
 .nav li {
@@ -76,16 +76,17 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 1.5px solid #FFAB68;
+  transition: all 0.75s;
 }
 
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1) rotate(1440deg);
+  border: 2px solid #FFAB68;
 }
 
 .tag {
-  background-color: #efefef;
+  background-color: #faf2ec;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -94,33 +95,47 @@ header .profile-image:hover {
 } 
 
 .location {
-  background-color: #222;
-  color: #ffffff;
+  background-color: #faf2ec;
+  color: #000;
 }
 
 .card {
+  background: url('images/Subtle-Dots-White-Tileable-pattern.jpg') repeat top center;
   margin: 30px;
-  padding: 20px 40px 40px;
-  width: 30%;
+  padding: 20px 40px 20px;
+  width: 32%;
   text-align: left;
-  background: #fff;
+  border: 1px solid #fbbb71;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.learning-card {
+  background: url('images/Subtle-Dots-White-Tileable-pattern.jpg') repeat top center;
+  margin: 10px 30px 30px 30px;
+  padding: 0px 40px 20px;
+  width: 32%;
+  text-align: left;
+  border: 1px solid #fbbb71;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 
 .exp-card {
+  background: url('images/Subtle-Dots-White-Tileable-pattern.jpg') repeat top center;
   margin: 30px;
-  padding: 20px 40px 40px;
+  padding: 20px 40px 20px;
   width: 40%;
   text-align: center;
-  background: #fff;
+  border: 1px solid #fbbb71;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 
-.card:hover, .exp-card:hover {
+.card:hover, .exp-card:hover, .learning-card:hover {
   border-color: #ff99ff;
 }
 
@@ -131,8 +146,9 @@ ul.skills, ul.exps {
 
 .skills li, .exps li {
   border-radius: 6px;
+  border: 0.5px solid #3d56c7;
   display: inline-block;
-  background: #ff9904;
+  background: #0399ff;
   color: white;
   list-style: none;
   padding: 5px 10px;
@@ -153,6 +169,20 @@ ul.hobbies_list {
 
 .exp-title {
   text-align: center;
+}
+
+.learning-intro {
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.platform-title {
+  text-align: center;
+}
+
+.logo-pic {
+  width: 100%;
+  border-radius: 6px;
 }
 
 footer {
