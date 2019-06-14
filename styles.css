@@ -111,10 +111,10 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
-.learning-card {
+.learning-card, .places-card {
   background: url('images/Subtle-Dots-White-Tileable-pattern.jpg') repeat top center;
   margin: 10px 30px 30px 30px;
-  padding: 0px 40px 20px;
+  padding: 0 40px 20px;
   width: 32%;
   text-align: left;
   border: 1px solid #fbbb71;
@@ -171,16 +171,20 @@ ul.hobbies_list {
   text-align: center;
 }
 
-.learning-intro {
+.learning-intro, .places-intro {
   font-size: 22px;
   margin-top: 30px;
 }
 
-.platform-title {
+.places-card {
+  padding: 0 20px 20px 20px;
+}
+
+.platform-title, .places-title {
   text-align: center;
 }
 
-.logo-pic {
+.logo-pic, .places-pic {
   width: 100%;
   border-radius: 6px;
 }
