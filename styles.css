@@ -152,7 +152,7 @@ ul.skills, ul.exps {
   color: white;
   list-style: none;
   padding: 5px 10px;
-  margin: 2px;
+  margin: 2px 2px 4px;
 }
 
 .skills li:nth-child(odd), .exps li:nth-child(odd) {
